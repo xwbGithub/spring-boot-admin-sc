@@ -16,15 +16,19 @@ public class SecuritySecureConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        // @formatter:off
         SavedRequestAwareAuthenticationSuccessHandler successHandler = new SavedRequestAwareAuthenticationSuccessHandler();
-        successHandler.setTargetUrlParameter("redirectTo");
-        http.authorizeRequests().antMatchers(adminContextPath + "/assets/**").permitAll()
-                .antMatchers(adminContextPath + "/login").permitAll()
+        successHandler.setTargetUrlParameter( "redirectTo" );
+
+        http.authorizeRequests()
+                .antMatchers( adminContextPath + "/assets/**" ).permitAll()
+                .antMatchers( adminContextPath + "/login" ).permitAll()
                 .anyRequest().authenticated()
                 .and()
-                .formLogin().loginPage(adminContextPath + "/login").successHandler(successHandler).and()
-                .logout().logoutUrl(adminContextPath + "/logout").and()
+                .formLogin().loginPage( adminContextPath + "/login" ).successHandler( successHandler ).and()
+                .logout().logoutUrl( adminContextPath + "/logout" ).and()
                 .httpBasic().and()
                 .csrf().disable();
+        // @formatter:on
     }
 }
