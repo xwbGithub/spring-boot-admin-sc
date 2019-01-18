@@ -3,6 +3,21 @@ server:
 spring:
   application:
     name: admin-server
+  # Spring security配置信息
+  security:
+    user:
+      name: "admin"
+      password: "admin"
+  #mail邮箱配置(用于异常报警,发送邮件及时通知)
+  mail:
+    host: 1054971813@qq.com
+    username: crown
+    password: xwb.*#/2580
+  boot:
+    admin:
+      notify:
+        mail:
+          to: 1056481167@qq.com
 eureka:
   client:
     registry-fetch-interval-seconds: 5
@@ -11,6 +26,10 @@ eureka:
   instance:
     lease-renewal-interval-in-seconds: 10
     health-check-url-path: /actuator/health
+    # 注册中心加入metadata-map的信息，验证
+    metadata-map:
+      user.name: ${spring.security.user.name}
+      user.password:  ${spring.security.user.password}
 management:
   endpoints:
     web:
