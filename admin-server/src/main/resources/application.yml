@@ -10,19 +10,19 @@ spring:
       password: "admin"
   #mail邮箱配置(用于异常报警,发送邮件及时通知)
   mail:
-    host: 1054971813@qq.com
+    host: xxxxx@qq.com
     username: crown
-    password: xwb.*#/2580
+    password: xxxx
   boot:
     admin:
       notify:
         mail:
-          to: 1056481167@qq.com
+          to: xxxx@qq.com
 eureka:
   client:
     registry-fetch-interval-seconds: 5
     service-url:
-        defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8081}/eureka/
+        defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8080}/eureka/
   instance:
     lease-renewal-interval-in-seconds: 10
     health-check-url-path: /actuator/health
