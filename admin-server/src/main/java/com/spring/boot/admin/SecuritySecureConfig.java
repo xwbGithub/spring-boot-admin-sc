@@ -1,4 +1,4 @@
-package com.spring.boot.admin.config;
+package com.spring.boot.admin;
 
 import de.codecentric.boot.admin.server.config.AdminServerProperties;
 import org.springframework.context.annotation.Configuration;

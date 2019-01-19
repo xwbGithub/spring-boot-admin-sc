@@ -10,14 +10,14 @@ spring:
       password: "admin"
   #mail邮箱配置(用于异常报警,发送邮件及时通知)
   mail:
-    host: xxxxx@qq.com
-    username: crown
-    password: xxxx
+    host:  smtp.qq.com #qq的固定写法
+    username: xxxxxx@qq.com #发送邮件的qq邮箱
+    password: xjwbriexiwvtbafd #授权码
   boot:
     admin:
       notify:
         mail:
-          to: xxxx@qq.com
+          to: xxxxxx@qq.com #接受邮件的qq邮箱
 eureka:
   client:
     registry-fetch-interval-seconds: 5
