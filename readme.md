@@ -226,14 +226,14 @@ public class SecuritySecureConfig extends WebSecurityConfigurerAdapter {
  
 ##测试过程
 1、查看eureka注册中心
-    在项目下./projectPhoto/euureka8080.png<br>
+    <img src="https://github.com/xwbGithub/spring-boot-admin-sc/blob/master/projectPhoto/admin-client.png"/>
 2、登陆管理中心<br>
-    在项目下./projectPhoto/adminLogin.png<br>
+    <img src="https://github.com/xwbGithub/spring-boot-admin-sc/blob/master/projectPhoto/adminLogin.png"/>
 3、管理中心的应用列表<br>
-    在项目下./projectPhoto/adminApplications.png<br>
+    <img src="https://github.com/xwbGithub/spring-boot-admin-sc/blob/master/projectPhoto/adminApplications.png"/>
 4、admin-server中心<br>
-    在项目下./projectPhoto/adminServer.png<br>
+    <img src="https://github.com/xwbGithub/spring-boot-admin-sc/blob/master/projectPhoto/adminServer.png"/>
 5、admin-client中心<br>
-    在项目下./projectPhoto/admin-client.png<br>
+    <img src="https://github.com/xwbGithub/spring-boot-admin-sc/blob/master/projectPhoto/admin-client.png"/>
 6、邮件说明<br>
-    在项目下./projectPhoto/email.png<br>
+    <img src="https://github.com/xwbGithub/spring-boot-admin-sc/blob/master/projectPhoto/email.png"/>
