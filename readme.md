@@ -227,7 +227,7 @@ public class SecuritySecureConfig extends WebSecurityConfigurerAdapter {
  ~~~
 ## 测试过程
 1、查看eureka注册中心
-    <img src="https://github.com/xwbGithub/spring-boot-admin-sc/blob/master/projectPhoto/admin-client.png"/>
+    <img src="https://github.com/xwbGithub/spring-boot-admin-sc/blob/master/projectPhoto/eureka8080.png"/>
 2、登陆管理中心<br>
     <img src="https://github.com/xwbGithub/spring-boot-admin-sc/blob/master/projectPhoto/adminLogin.png"/>
 3、管理中心的应用列表<br>
