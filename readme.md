@@ -1,10 +1,12 @@
-##环境介绍：
-###项目结构
+## 环境介绍：
+## 项目结构
+
                                |----->>eureka-server
         spring-boot-admin-sc   |----->>admin-server
                                |----->>admin-client
-                               
-父项目pom.xml
+
+           
+###  spring-boot-admin-sc pom.xml
 ~~~xml
   <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -21,7 +23,7 @@
                 <scope>import</scope>
             </dependency>
 ~~~
-eureka-admin<br>
+### eureka-admin<br>
   1、pom.xml
   ~~~xml
   <!-- 注册中心使用Eureka -->
@@ -65,7 +67,7 @@ eureka-admin<br>
         }
     }
  ~~~ 
- admin-server<br>
+ ### admin-server<br>
  pom.xml
  ~~~xml
   <!--  admin-server服务端jar -->
@@ -170,7 +172,7 @@ public class SecuritySecureConfig extends WebSecurityConfigurerAdapter {
        # when_authorized:仅向授权用户显示详细信息。可以使用management.endpoint.health.roles配置授权角色。
        show-details: always
  ~~~
- admin-client<br>
+ ### admin-client<br>
  pom.xml
  ~~~xml
       <!--  eureka-client客户端 -->
@@ -223,8 +225,7 @@ public class SecuritySecureConfig extends WebSecurityConfigurerAdapter {
  
  }
  ~~~
- 
-##测试过程
+## 测试过程
 1、查看eureka注册中心
     <img src="https://github.com/xwbGithub/spring-boot-admin-sc/blob/master/projectPhoto/admin-client.png"/>
 2、登陆管理中心<br>
