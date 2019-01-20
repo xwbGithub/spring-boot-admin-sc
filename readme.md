@@ -235,6 +235,6 @@ public class SecuritySecureConfig extends WebSecurityConfigurerAdapter {
 4、admin-server中心<br>
     <img src="https://github.com/xwbGithub/spring-boot-admin-sc/blob/master/projectPhoto/adminServer.png"/>
 5、admin-client中心<br>
-    <img src="https://github.com/xwbGithub/spring-boot-admin-sc/blob/master/projectPhoto/admin-client.png"/>
+    <img src="https://github.com/xwbGithub/spring-boot-admin-sc/blob/master/projectPhoto/adminClient.png"/>
 6、邮件说明<br>
     <img src="https://github.com/xwbGithub/spring-boot-admin-sc/blob/master/projectPhoto/email.png"/>
