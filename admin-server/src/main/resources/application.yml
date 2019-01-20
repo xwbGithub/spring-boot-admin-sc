@@ -11,13 +11,13 @@ spring:
   #mail邮箱配置(用于异常报警,发送邮件及时通知)
   mail:
     host:  smtp.qq.com #qq的固定写法
-    username: xxx@qq.com #发送邮件的qq邮箱
+    username: 1054971813@qq.com #发送邮件的qq邮箱
     password: xjwbriexiwvtbdfa #授权码
   boot:
     admin:
       notify:
         mail:
-          to: xxx@qq.com #接受邮件的qq邮箱
+          to: 1056481167@qq.com #接受邮件的qq邮箱
 eureka:
   client:
     registry-fetch-interval-seconds: 5
